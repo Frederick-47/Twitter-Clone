@@ -1,0 +1,457 @@
+body{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background: linear-gradient(to top left, rgb(178, 84, 199), rgb(101, 38, 115)); */
+    background: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.personal {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.personal p {
+    margin-left: 1rem;
+}
+
+.personal a{
+    width: 45%;
+    height: 40%;
+    display: flex;
+    text-decoration: none;
+    font-size: .9rem;
+    align-items: center;
+}
+
+.personal img{
+    width: 20%;
+    border-radius: 150px;
+    justify-self: end;
+    
+}
+
+.icons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 60%;
+    grid-template-columns: auto;
+    
+}
+
+.icons a{
+    width: 45%;
+    height: 50%;
+    align-self: center;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    text-decoration: none;
+    ;
+}
+
+.icons p{
+    margin-left: 1.5rem;
+}
+
+
+.icons img{
+    justify-self: flex-end;
+    width: 12%;
+    color: white;
+}
+
+.icons .new-tweet{
+    width: 45%;
+    height: 120%;
+    justify-content: start;
+}
+
+.icons .new-tweet button{
+    width: 90%; 
+    border-radius: 60px;
+    background-color: #1899D6;
+    cursor: pointer;
+    height: 70%;    
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.nav {
+    width: 31vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid grey;
+}
+
+.info{
+    width: 31vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .home{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.more-tweets{
+    width: 100%;
+    height:  25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tweet-box {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.above{
+    display: flex;
+    justify-content: space-between;
+    height: 35%;
+}
+
+.above a{
+    width: 5%;
+}
+.above img{
+    justify-self: center;
+    height: 40%;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.above h3{
+   margin: 0;
+   display: flex;
+   align-items: center;
+   margin-left: 1.3rem;
+}
+
+.medium {
+    display: flex;
+    width: 100%;
+    height: 60%;
+
+}
+
+.medium a {
+    margin-left: 1.3rem;
+    margin-top: 4px;
+    width: 9%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.medium img {
+    margin-top: 1rem;
+    width: 90%;
+    height: 70%;
+    border-radius: 150px;
+    
+}
+
+.text {
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+
+.small-icons {
+    width: 40%;
+    display: flex;
+    padding-left: 1.8rem;
+    
+}
+
+.small-icons .special{
+    width: 90%;
+}
+
+.small-icons a{
+    width: 8%;
+    margin-right: 6px;
+}
+
+.small-icons img:hover{
+    background-color: rgba(248,249,244,255);
+}
+
+.small-icons img {
+    width: 100%;
+}
+
+.more-tweets button {
+
+    appearance: button;
+    background-color: #1899D6;
+    padding-top: .3rem;
+    height: 80%;
+    width: 100%;
+    border: solid transparent;
+    border-radius: 30px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: capitalize;
+    
+}
+
+.button {
+    padding-top: .4rem;
+    width: 15%;
+    margin-right: .5rem;
+
+}
+
+
+/* .container{
+    width: 50vw;
+    height: 50vh;
+    background-size: contain;
+    background: radial-gradient(rgb(101, 38, 115),rgb(178, 84, 199),rgb(101, 38, 115),rgb(178, 84, 199));
+
+} 
+/* 
+.container img{
+    background-size: cover;
+    width: 70vw;
+} */ 
+
+.info .info-card {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card img{
+    
+    width: 7%;
+    align-self: flex-start;
+    padding: 1rem ;
+}
+
+.info-card .confirmed{
+    padding: 0;
+    width: 3%;
+    height: 50%;
+    padding-top: .8rem;
+    padding-left: .3rem;
+}
+
+.info-card .info-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    font-size: 1rem;
+}
+
+.info-card .info-nav a{
+    height: 50%;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: black;
+}
+
+.info-nav p {
+    padding-top: .3rem;
+    padding-left: .4rem;
+    font-size: .7rem;
+    
+}
+
+.news {
+    width: 38%;
+    background-color: white;
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-body .elon{
+    width: 5%;
+    margin-left: 1rem;
+}
+
+.info-body img{
+    width: 80%;
+    height: 100%;
+    align-self: center;
+    padding: 0;
+    border-radius: 13px;
+
+}
+
+
+.info-body p{
+    font-size: 1rem;
+    width: 80%;
+    align-self: center;
+    margin-top: 0;
+    padding-left: 1rem;
+}
+
+.opensea{
+    margin-left: .3rem;
+}
+
+.news input{
+    width: 50%;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+    border-radius: 40px;
+    height: 5%;
+    border: 1px solid grey;
+    font: var(--fa-font-solid);
+    content: "\f007";
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
+
+.relevant {
+    width: 50%;
+    height: 60%;
+    border: 1px solid grey;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.relevant h3{
+    margin: .4rem;
+}
+
+.relevant-box{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.news-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: .7rem;
+    justify-content: space-between;
+}
+
+.news-box div{
+    width: 80%;
+}
+
+.news-box .card-image{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin-right: .4rem;
+    
+}
+
+
+.card-image img{
+    width: 100%;
+    object-position: center;
+    border-radius: 20px;
+}
+.news-box:hover{
+    background-color: rgb(232, 231, 223);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.news-box button{
+    height: 30%;
+    width: 10%;
+    border-radius: 150px;
+    border: none;
+    margin: .3rem 1rem ;
+    cursor: pointer;
+}
+
+.scroll {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
